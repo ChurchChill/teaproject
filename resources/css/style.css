@@ -26,8 +26,6 @@ body {
   text-decoration: underline;
   width: 400px;
   justify-content: space-around;
-  align-items: flex-end;
-  flex-direction: row;
   margin-right: 10px;
 
 
@@ -35,8 +33,11 @@ body {
 
 .main {
   display: flex;
+  align-items: center;
 }
 
 .mission {
   display: flex;
+  position: static;
+  align-items: center;
 }
