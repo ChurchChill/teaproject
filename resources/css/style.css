@@ -1,23 +1,21 @@
 body {
-  display: flex;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
   display: flex;
-  height: 69px;
+  height: auto;
   border-bottom: 1px white solid;
   position: fixed;
   width: 100%;
   justify-content: space-between;
   z-index: 2;
-  background-color: black
+  background-color: black;
 
 }
 
@@ -33,11 +31,26 @@ body {
 
 .main {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 69px;
 }
 
 .mission {
   display: flex;
-  position: static;
+  justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  height: 700px
+}
+
+.ourm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  width: 1200px
 }
