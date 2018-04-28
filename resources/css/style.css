@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px white solid;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: black
+
+}
+
+.headerone {
+  display: flex;
+  text-decoration: underline;
+  width: 400px;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-right: 10px;
+
+
+}
+
+.main {
+  display: flex;
+}
+
+.mission {
+  display: flex;
+}
